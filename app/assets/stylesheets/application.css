@@ -13,3 +13,45 @@
  *= require_tree .
  *= require_self
  */
+
+.h1 {
+  margin-top: 5px;
+}
+
+.container {
+  width: 50%;
+}
+.link {
+  margin-top: 25px;
+  padding-left: 5px;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.dialog {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.signature {
+  color: rgb(120, 118, 118);
+  font-style: italic;
+  font-size: 14px;
+}
+
+.user-text {
+  background-color: rgb(61, 140, 204, 0.2);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 1.5px;
+}
+
+.coach-text {
+  background-color: rgb(238, 238, 72, 0.2);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 1.5px;
+  text-align: right;
+}

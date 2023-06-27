@@ -1,7 +1,7 @@
 <form action="/answer" method="get" data-turbo="false">
+  <p> Ask your coach for anything: </p>
   <!--action = page to which we will navigate when submit // method="get" to define http request-->
-  <input type="text" name="query" value="<%= params[:query] %> "placeholder="Any question?">
+  <input type="text" name="query" placeholder="Any question?">
   <!--"name"'s value is the key of "name" parameter => query=are+you+here%3F-->
-  <!--"value" is added here with params because we need to retrieve what the user types in controller ask action-->
-  <input type="submit" value="Ask!">
+  <input type="submit" class="btn btn-primary" value="Ask!">
 </form>

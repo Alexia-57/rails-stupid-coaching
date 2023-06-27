@@ -1,9 +1,20 @@
-<div>
-  <%= params[:query] %>
-  <p>-You</p>
-</div>
-<br>
-<div>
-  <%= @answer %>
-  <p>-Your Coach</p>
+<div class="container">
+
+  <div class="dialog">
+    <div class="user-text">
+      <%= @question %> <!-- = params[:query]-->
+      <p class="signature">-You</p>
+    </div>
+
+    <br>
+
+    <div class="coach-text">
+      <%= @answer %>
+      <p class="signature">-Your Coach</p>
+    </div>
+
+    <div class="link">
+      <%= link_to "Ask a new question", ask_path %>
+    </div>
+  </div>
 </div>
