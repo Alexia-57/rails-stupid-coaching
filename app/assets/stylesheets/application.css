@@ -37,7 +37,7 @@ h1 {
   padding: 40px;
   border-radius: 5px;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.127);
-  width: 120%;
+  width: 90%;
   margin: auto;
   margin-bottom: 2rem;
 }
@@ -70,6 +70,7 @@ h1 {
   padding-left: 15px;
   padding-top: 5px;
   padding-bottom: 1.5px;
+  width: 75%;
 }
 
 .coach-text {
@@ -79,4 +80,5 @@ h1 {
   padding-top: 5px;
   padding-bottom: 1.5px;
   text-align: right;
+  width: 75%;
 }
