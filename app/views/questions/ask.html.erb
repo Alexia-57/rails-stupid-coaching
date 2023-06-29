@@ -1,7 +1,19 @@
 <form action="/answer" method="get" data-turbo="false">
+<!--action = page to which we will navigate when submit // method="get" to define http request-->
   <p> Ask your coach for anything: </p>
-  <!--action = page to which we will navigate when submit // method="get" to define http request-->
-  <input type="text" name="query" placeholder="Any question?">
-  <!--"name"'s value is the key of "name" parameter => query=are+you+here%3F-->
-  <input type="submit" class="btn btn-primary" value="Ask!">
+  <div class="input-group mb-3" style="width: 400px">
+    <input type="text" name="query" class="form-control input-small" placeholder="Any question?" aria-label="Recipient's username" aria-describedby="basic-addon2">
+    <!--"name"'s value is the key of "name" parameter => query=are+you+here%3F-->
+    <div class="input-group-append">
+      <button class="btn btn-primary" type="submit">Ask!</button>
+    </div>
+  </div>
 </form>
+
+<!-- <form action="/answer" method="get" data-turbo="false">
+  <p> Ask your coach for anything: </p>
+  action = page to which we will navigate when submit // method="get" to define http request
+  <input type="text" name="query" placeholder="Any question?">
+  "name"'s value is the key of "name" parameter => query=are+you+here%3F
+  <input type="submit" class="btn btn-primary" value="Ask!">
+</form> -->
